@@ -1,0 +1,8 @@
+property0|property1|net_sales
+bar|$total|-200
+foo|sauce|300
+$total|$total|200
+bar|sup|-400
+foo|$total|400
+bar|bro|200
+foo|bacon|100
