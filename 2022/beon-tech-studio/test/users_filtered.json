@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "first_name": "Name 1",
+    "last_name": "Last Name 1",
+    "email": "email_1@email_1.com",
+    "gender": "Male",
+    "ip_address": "111.111.111.111",
+    "birth_date": "1991-01-01"
+  }
+]

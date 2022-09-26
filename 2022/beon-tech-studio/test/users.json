@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "first_name": "Name 1",
+    "last_name": "Last Name 1",
+    "email": "email_1@email_1.com",
+    "gender": "Male",
+    "ip_address": "111.111.111.111",
+    "birth_date": "1991-01-01"
+  },
+  {
+    "id": 2,
+    "first_name": "Name 2",
+    "last_name": "Last Name 2",
+    "email": "email_2@email_2.com",
+    "gender": "Female",
+    "ip_address": "222.222.222.222",
+    "birth_date": null
+  },
+  {
+    "id": 3,
+    "first_name": "Name 3",
+    "last_name": "Last Name 3",
+    "email": null,
+    "gender": "Male",
+    "ip_address": "233.233.233.233",
+    "birth_date": "1991-01-03"
+  },
+  {
+    "id": 4,
+    "first_name": "Name 4",
+    "last_name": "Last Name 4",
+    "email": "email_4@email_4.com",
+    "gender": null,
+    "ip_address": "244.244.244.244",
+    "birth_date": "1991-01-04"
+  }
+]
