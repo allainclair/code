@@ -1,0 +1,42 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Allainclair", email = "allainclair@gmail.com"},
+]
+dependencies = [
+    "fastapi>=0.73.0",
+    "uvicorn[standard]>=0.17.1",
+    "requests>=2.27.1",
+    "sqlmodel>=0.0.7",
+    "python-dotenv>=0.20.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.urls]
+homepage = ""
+
+[project.optional-dependencies]
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=6.2.5",
+    "ipython>=8.0.1",
+    "icecream>=2.1.1",
+]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.scripts]
+start = "uvicorn main:app --reload"
+test = "pytest -svv"
+test_full = "pytest -svv test/"
+
+db_create = "python -m db.app"
+db_delete = "python -m test.db.db_delete"
+

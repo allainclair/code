@@ -1,0 +1,10 @@
+.pdm.toml
+.pytest_cache
+pdm.lock
+.idea
+.pdm.lock
+.venv
+
+db/database.db
+db_instances/database.db
+test/database.db
